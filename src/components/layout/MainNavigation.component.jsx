@@ -11,8 +11,8 @@ function MainNavigation() {
           <li>Tareas Importantes</li>
           <li>Añadir Tarea</li>
         </ul>
-      
     </header>
+
   );
 }
 

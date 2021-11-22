@@ -1,11 +1,12 @@
-import MainNavigation from "./components/layout/MainNavigation.component";
+import Layout from "./components/layout/Layout.component";
 
 
 function App() {
   return (
-  
-     <MainNavigation />
-    
+    <Layout>
+      hola puta 
+    </Layout>
+     
   );
 }
 
