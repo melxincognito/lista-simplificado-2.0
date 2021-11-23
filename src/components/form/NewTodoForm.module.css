@@ -5,10 +5,6 @@
   padding: 2rem;
   text-align: center;
   width: 30rem;
-  z-index: 10;
-  position: fixed;
-  top: 20vh;
-  left: calc(50% - 15rem);
 }
 
 .control label {
