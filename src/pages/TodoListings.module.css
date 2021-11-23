@@ -1,0 +1,5 @@
+.list {
+    display: flex;
+    align-items: left;
+    gap: 10px;
+}

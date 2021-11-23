@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from 'react';
 import TodoList from "../components/todos/TodoList.component";
+import classes from './TodoListings.module.css';
 
 
 function AllTodosPage() {
@@ -41,8 +42,11 @@ function AllTodosPage() {
 
   return (
     <section>
-      <h1> Todos los reuniones </h1>
-      <TodoList todos={loadedTodos} />
+      <h1> Todos Mis Tareas </h1>
+      <div className={classes.list}>
+        <TodoList todos={loadedTodos} />
+      </div>
+      
     </section>
 
   )
