@@ -4,7 +4,7 @@ import classes from "./TodoItem.module.css";
 
 function TodoItem(props) {
   function deleteTodo() {
-    console.log(props.title);
+    alert(props.fecha)
   }
 
   return (
